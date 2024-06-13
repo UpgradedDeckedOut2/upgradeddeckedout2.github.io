@@ -1,2 +1,2 @@
-# upgradeddeckedout2.gitub.io
+# Upgraded Decked Out 2
 Website for Upgraded Decked Out 2
