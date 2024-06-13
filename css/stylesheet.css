@@ -1,0 +1,82 @@
+/* Body & Page Background */
+body {  
+    color: white;
+    font-size: 1.2em;
+}
+
+#version1-page {
+    background-image: url(/images/background/background-lockerroom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Main */
+main {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.main-content {
+    background-color: hsla(0, 0%, 10%, 0.9);
+    width: 75%;
+}
+
+.card, .carousel {
+    width: 75%;
+    height: 75%;
+}
+
+/* Footer */
+footer a {
+    color: hsl(0, 0%, 50%);
+}
+
+footer a:link {
+    color: hsl(0, 0%, 50%);
+}
+
+footer a:hover {
+    color: hsl(0, 0%, 30%);
+}
+
+/* Utilities */
+.ul-1 {
+    position: relative;
+    padding-left: 32px;
+}
+
+.ul-1::before {
+    content: "\2022"; /* Unicode for bullet character */
+    position: absolute;
+    left: 7px;
+    top: -7px;
+    font-size: 1.5em; /* Bullet size */
+}
+
+.ul-2 {
+    position: relative;
+    padding-left: 64px;
+}
+
+.ul-2::before {
+    content: "\25E6"; /* Unicode for bullet character */
+    position: absolute;
+    left: 39px;
+    top: -7px;
+    font-size: 1.5em; /* Bullet size */
+}
+
+.ul-3 {
+    position: relative;
+    padding-left: 96px;
+}
+
+.ul-3::before {
+    content: "\25AA"; /* Unicode for bullet character */
+    position: absolute;
+    left: 71px;
+    top: -7px;
+    font-size: 1.5em; /* Bullet size */
+}

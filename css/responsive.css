@@ -1,0 +1,15 @@
+@media only screen and (max-device-width: 992px) {
+    #version1-page {
+        background-image: none;
+        background-color: hsl(0, 0%, 10%);
+    }
+
+    .main-content {
+        width: 100%;
+    }
+
+    .card, .carousel {
+        width: 100%;
+        height: 100%;
+    }
+}
