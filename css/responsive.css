@@ -1,15 +1,36 @@
 @media only screen and (max-device-width: 992px) {
+    html {
+        scroll-padding-top: 70px;
+    }
+
     #version1-page {
         background-image: none;
         background-color: hsl(0, 0%, 10%);
     }
 
     .main-content {
+        position: static;
         width: 100%;
     }
 
     .card, .carousel {
         width: 100%;
         height: 100%;
+    }
+
+    #btn__toc {
+        top: 60px;
+        left: auto;
+        right: 45px;
+    }
+
+    #tableOfContents {
+        top: 58px;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+    #tableOfContents {
+        width: 100%;
     }
 }
