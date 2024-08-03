@@ -9,7 +9,6 @@
     }
 
     .main-content {
-        position: static;
         width: 100%;
     }
 
@@ -19,7 +18,7 @@
     }
 
     #btn__toc {
-        top: 60px;
+        top: 100px;
         left: auto;
         right: 45px;
     }
